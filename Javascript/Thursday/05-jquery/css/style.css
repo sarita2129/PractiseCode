@@ -1,0 +1,11 @@
+header{
+  text-align: center;
+  font-size: 200%;
+  background-color: #ccc;
+  padding : 1em;
+  border-radius: 0.5em;
+}
+header.active{
+  font-size: 400%;
+  background-color: blue;
+}

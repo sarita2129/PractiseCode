@@ -1,0 +1,13 @@
+.box-small{
+  background:#98bf21;height:100px;width:100px;margin:6px;
+}
+.box-large{
+  background:#98bf21;height:300px;width:300px;margin:6px;
+}
+.div-frame{
+    width: 150px;
+    height:85px;
+    margin: 5px;
+    float: left;
+    background: #254BF4;
+}

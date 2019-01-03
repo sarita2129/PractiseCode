@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('#btn1').click(function(){
+    $('#box').animate({
+      width:'300px',height:'300px'
+    },5000)
+  });
+  $('#btn2').click(function(){
+    $('#box').animate({
+      width:'100px',height:'100px'
+    },5000)
+  });
+});
