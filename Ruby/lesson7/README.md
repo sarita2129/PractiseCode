@@ -2,9 +2,10 @@
 **Contents Covered**
 * Class
 Ruby is an object-oriented programming language, which means it manipulates programming constructs called objects. (Almost) everything in Ruby is an object! You've been using them all along, so they should be very familiar. Objects have methods, which you've seen before, and attributes, which are just data.
-Below is the syntax for creating class:
-class Name
- # some code describing the class behavior
+
+Below is the syntax for creating class:<br/>
+class Name <br/>
+code content here<br/>
 end
 
 New instance of class is created by using Name.new keyword
@@ -26,43 +27,42 @@ New instance of class is created by using Name.new keyword
 
 * Module
   Module contains a set methods and constants. You can think of modules as being very much like classes, only modules can't create instances and can't have subclasses.
-  Below is the syntax for creating module
+  Below is the syntax for creating module<br/>
 
-    module ModuleName
-    # module
-    end
+    module ModuleName<br/>
+    module code <br/>
+    end <br/>
   - Require
-    If you want to use any module in a class then you can achieve it by "require". For eg: If you want to use Ruby Date module to show today's date, then simply use require 'date'
-      Below is the syntax
-      require 'date'
+    If you want to use any module in a class then you can achieve it by "require". For eg: If you want to use Ruby Date module to show today's date, then simply use require 'date' <br/>
+      Below is the syntax <br/>
+      require 'date' <br/>
 
-      puts Date.today
+      puts Date.today <br/>
 
   - Include  
     Any class that includes a certain module can use those module's methods. You no longer have to prepend your constants and methods with the module name.
-      Below is the syntax
-      Math::cos changes to cos
-      class Angle
-      include Math
-      attr_accessor :radians
+      Below is the syntax <br/>
+      Math::cos changes to cos <br/>
 
-      def initialize(radians)
-        @radians = radians
-      end
-
-      def cosine
-        cos(@radians)
-      end
+      class Angle <br/>
+      &nbsp;include Math <br/>
+      &nbsp;attr_accessor :radians <br/>     
+      &nbsp;def initialize(radians)<br/>
+      &nbsp;&nbsp;@radians = radians <br/>
+      &nbsp;end<br/>
+      &nbsp;def cosine <br/>
+      &nbsp;&nbsp;cos(@radians) <br/>
+      &nbsp;end <br/>
       end
 * OOPS features
   - Inheritance
     Inheritance is the process by which one class takes on the attributes and methods of another.
     Below is the syntax
 
-    class BaseClass
-      def base_method
-        puts "Base class"
-      end
+    class BaseClass <br/>
+    &nbsp;def base_method <br/>
+    &nbsp;&nbsp;puts "Base class" <br/>
+    &nbsp;end <br/>
     end
 
     class childclass < BaseClass
