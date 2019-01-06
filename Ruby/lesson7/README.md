@@ -32,6 +32,7 @@ New instance of class is created by using Name.new keyword
     module ModuleName<br/>
     module code <br/>
     end <br/>
+    
   - Require
     If you want to use any module in a class then you can achieve it by "require". For eg: If you want to use Ruby Date module to show today's date, then simply use require 'date' <br/>
       Below is the syntax <br/>

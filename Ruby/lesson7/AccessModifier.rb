@@ -38,17 +38,17 @@ class Account
     return "Access denied: incorrect PIN."
   end
 end
-class Checkin_account < Account
-  def initialize(name,balance)
-    super(name,balance)
-
-  end
-  def withdraw(num1,num2)
-    puts "withdraw method of child called."
-  end
-end
-class Savingin_account < Account
-end
+# class Checkin_account < Account
+#   def initialize(name,balance)
+#     super(name,balance)
+#
+#   end
+#   # def withdraw(num1,num2)
+#   #   puts "withdraw method of child called."
+#   # end
+# end
+# class Savingin_account < Account
+# end
 checking_account = Account.new("Steve",20000)
 checking_account.withdraw(11,200)
 checking_account.withdraw(1234,2000)
@@ -56,11 +56,11 @@ checking_account.display_balance(1234)
 checking_account.deposit(1234,2000)
 #checking_account.pin_error
 
-checkchild = Checkin_account.new("Smita",30000)
-checkchild.withdraw(11,200)
-checkchild.withdraw(1234,2000)
-checkchild.display_balance(1234)
-checkchild.deposit(1234,2000)
+# checkchild = Checkin_account.new("Smita",30000)
+# checkchild.withdraw(11,200)
+# checkchild.withdraw(1234,2000)
+# checkchild.display_balance(1234)
+# checkchild.deposit(1234,2000)
 
 # savingchild = Savingin_account.new("Unni",1000)
 # savingchild.withdraw(11,200)
